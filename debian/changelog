@@ -1,3 +1,15 @@
+wayland (1.22.0-1) experimental; urgency=medium
+
+  [ Guido Günther ]
+  * New upstream release
+  * debian/libwayland-server0.symbols: refresh
+
+  [ Marius Gripsgard ]
+  * debian/upstream: Update signing key to include key 
+    from the current upstream release developer
+
+ -- Marius Gripsgard <marius@ubports.com>  Thu, 01 Jun 2023 19:54:23 +0200
+
 wayland (1.21.0-1) unstable; urgency=medium
 
   * New upstream release.

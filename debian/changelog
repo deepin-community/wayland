@@ -1,3 +1,24 @@
+wayland (1.23.0-1) unstable; urgency=medium
+
+  * New upstrem release (Closes: #1076634, #1076248)
+
+ -- Héctor Orón Martínez <zumbi@debian.org>  Mon, 22 Jul 2024 10:50:19 +0200
+
+wayland (1.22.0-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Move wayland-scanner.pc to libwayland-bin. (Closes: #939515)
+
+ -- Helmut Grohne <helmut@subdivi.de>  Fri, 25 Aug 2023 09:24:40 +0200
+
+wayland (1.22.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * debian/control: Add myself as uploader
+  * debian/control: Bump standard-version
+
+ -- Marius Gripsgard <mariogrip@debian.org>  Wed, 26 Jul 2023 02:43:38 +0200
+
 wayland (1.22.0-1) experimental; urgency=medium
 
   [ Guido Günther ]

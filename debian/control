@@ -1,6 +1,5 @@
 Source: wayland
 Section: x11
-Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>,
            Héctor Orón Martínez <zumbi@debian.org>,
@@ -8,7 +7,6 @@ Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>,
            Dylan Aïssi <daissi@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
- quilt,
  pkgconf,
  libexpat1-dev,
  libffi-dev,
@@ -20,12 +18,10 @@ Build-Depends-Indep:
  graphviz,
  xmlto,
  xsltproc,
- docbook-xsl,
-Standards-Version: 4.7.0
+Standards-Version: 4.7.4
 Vcs-Git: https://salsa.debian.org/xorg-team/wayland/wayland.git
 Vcs-Browser: https://salsa.debian.org/xorg-team/wayland/wayland
 Homepage: https://wayland.freedesktop.org/
-Rules-Requires-Root: no
 
 Package: libwayland-client0
 Section: libs
